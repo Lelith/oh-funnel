@@ -7,7 +7,8 @@ const Clothing = (props) => {
   console.table(items);
   return (
     <div>
-    All Items
+      <div className="type">
+      </div>
     </div>
   );
 };

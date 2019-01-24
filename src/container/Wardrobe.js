@@ -76,7 +76,7 @@ export default class Wardrobe extends Component {
           <Area svg={shoes} id="shoes" />
           <SVG src={PaperDoll} />
         </div>
-        <Clothing onChange={this.handleChangeItem} />
+        <Clothing items={Items} onChange={this.handleChangeItem} />
       </div>
     );
   }

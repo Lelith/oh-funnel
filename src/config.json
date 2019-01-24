@@ -9,7 +9,7 @@
         "casual":25,
         "ballermann":0
       },
-      "img_name":"top_a_plain.svg"
+      "img_name":"Shirt"
     },
     "paint": {
       "category_scores": {
@@ -20,7 +20,7 @@
         "casual":10,
         "ballermann":10
       },
-      "img_name":"top_a_paint.svg"
+      "img_name":"TopAPaint"
     },
     "text": {
       "category_scores": {
