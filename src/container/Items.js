@@ -1,11 +1,74 @@
 import Shirt from '../images/shirt.svg';
 import Trousers from '../images/trousers.svg';
 import Boots from '../images/boots.svg';
+import TopAPlain from '../images/top_a_plain.svg';
+import TopAPaint from '../images/top_a_paint.svg';
+import TopAText from '../images/top_a_text.svg';
+import TopAStripes from '../images/top_a_stripes.svg';
+import TopAPolo from '../images/top_a_polo.svg';
+import TopADeepU from '../images/top_a_deep_u.svg';
+import TopAButtonUp from '../images/top_a_button_up.svg';
+import TopAShortSleeve from '../images/top_a_short_sleeve.svg';
+import TopAChechered from '../images/top_a_checkered.svg';
+import TopAHawaii from '../images/top_a_hawaii.svg';
+import TopBKnittedTopPlain from '../images/top_b_knitted_top_plain.svg';
+import TopBKnittedTopStriped from '../images/top_b_knitted_top_striped.svg';
+import TopBSweashirtPlain from '../images/top_b_sweashirt_plain.svg';
+import TopBSweashirtPrint from '../images/top_b_sweashirt_print.svg';
+import TopBSweashirtText from '../images/top_b_sweashirt_text.svg';
+import TopBHoodiePlain from '../images/top_b_hoodie_plain.svg';
+import TopBPullover from '../images/top_b_pullover.svg';
+import TopBVest from '../images/top_b_vest.svg';
+import TopBBlazer from '../images/top_b_blazer.svg';
+import BottomJeansPlain from '../images/bottom_jeans_plain.svg';
+import BottomJeansHoles from '../images/bottom_jeans_holes.svg';
+import BottomFlares from '../images/bottom_flares.svg';
+import BottomChinos from '../images/bottom_chinos.svg';
+import BottomSuitTrousers from '../images/bottom_suit_trousers.svg';
+import BottomKilt from '../images/bottom_kilt.svg';
+import BottomShorts from '../images/bottom_shorts.svg';
+import ShoesSport from '../images/shoes_sport.svg';
+import ShoesSneakers from '../images/shoes_sneakers.svg';
+import ShoesBusiness from '../images/shoes_business.svg';
+import ShoesBoots from '../images/shoes_boots.svg';
+import ShoesSandals from '../images/shoes_sandals.svg';
+
 
 const ItemImages = [
   { src: Shirt },
   { src: Trousers },
   { src: Boots },
+  { src: TopAPlain },
+  { src: TopAPaint },
+  { src: TopAText },
+  { src: TopAStripes },
+  { src: TopAPolo },
+  { src: TopADeepU },
+  { src: TopAButtonUp },
+  { src: TopAShortSleeve },
+  { src: TopAChechered },
+  { src: TopAHawaii },
+  { src: TopBKnittedTopPlain },
+  { src: TopBKnittedTopStriped },
+  { src: TopBSweashirtPlain },
+  { src: TopBSweashirtPrint },
+  { src: TopBSweashirtText },
+  { src: TopBHoodiePlain },
+  { src: TopBPullover },
+  { src: TopBVest },
+  { src: TopBBlazer },
+  { src: BottomJeansPlain },
+  { src: BottomJeansHoles },
+  { src: BottomFlares },
+  { src: BottomChinos },
+  { src: BottomSuitTrousers },
+  { src: BottomKilt },
+  { src: BottomShorts },
+  { src: ShoesSport },
+  { src: ShoesSneakers },
+  { src: ShoesBusiness },
+  { src: ShoesBoots },
+  { src: ShoesSandals },
 ];
 
 export default ItemImages;
