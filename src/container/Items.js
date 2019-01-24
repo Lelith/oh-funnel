@@ -1,10 +1,11 @@
-import PaperDoll from '../images/paperdoll.svg';
-import Shirt from '../images/shirt_i_.svg';
-import Trousers from '../images/trousers_doll.svg';
-import Boots from '../images/boots_doll.svg';
+import Shirt from '../images/shirt.svg';
+import Trousers from '../images/trousers.svg';
+import Boots from '../images/boots.svg';
 
 const ItemImages = [
   { src: Shirt },
+  { src: Trousers },
+  { src: Boots },
 ];
 
 export default ItemImages;
