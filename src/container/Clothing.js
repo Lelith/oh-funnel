@@ -1,22 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const UserInfo = (props) => {
-  const { userInfo, onChange } = props;
-  console.log(onChange);
-  const {
+const Clothing = (props) => {
+  const { items, onChange } = props;
 
-  } = userInfo;
-
+  console.table(Items);
   return (
     <div>
+    All Items
     </div>
   );
 };
 
-UserInfo.propTypes = {
-  userInfo: PropTypes.object.isRequired,
+Clothing.propTypes = {
+  items: PropTypes.object.isRequired,
   onChange: PropTypes.func.isRequired,
 };
 
-export default UserInfo;
+export default Clothing;

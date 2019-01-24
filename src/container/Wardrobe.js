@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import SVG from 'react-inlinesvg';
 
+import Items from '../config.json';
+
 import PaperDoll from '../images/paperdoll.svg';
 import Shirt from '../images/shirt_doll.svg';
 import Trousers from '../images/trousers_doll.svg';
@@ -8,6 +10,7 @@ import Boots from '../images/boots_doll.svg';
 
 import Area from '../components/Area';
 import UserInfo from './UserInfo';
+import Clothing from './Clothing';
 
 export default class Wardrobe extends Component {
   constructor(props) {
@@ -31,7 +34,7 @@ export default class Wardrobe extends Component {
     this.handleInputChange = this.handleInputChange.bind(this);
   }
 
-  handleUserInfoChange(event) {
+  handleChangeUserInfo(event) {
     const { target } = event;
     const { name } = target;
     this.setState({
@@ -41,11 +44,11 @@ export default class Wardrobe extends Component {
     });
   }
 
-  handleUserInfoChange(event) {
+  handleChangeItem(event) {
     const { target } = event;
     const { name } = target;
     this.setState({
-      userInfo: {
+      areas: {
         [name]: target,
       },
     });
@@ -63,7 +66,7 @@ export default class Wardrobe extends Component {
 
     return (
       <div>
-        <UserInfo userInfo={userInfo} onChange={this.handleUserInfoChange} />
+        <UserInfo userInfo={userInfo} onChange={this.handleChangeUserInfo} />
         <div id="paperdoll">
           <Area svg={hair} id="hair" />
           <Area svg={topA} id="top_a" />
