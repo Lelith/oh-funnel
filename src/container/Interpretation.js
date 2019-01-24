@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import _ from 'lodash';
 
 import ProgressBar from '../components/ProgressBar';
 
@@ -21,13 +22,30 @@ export default class Interpretation extends Component {
     };
   }
 
+  componentDidMount() {
+    this.props2progress(this.props)
+  }
+
   /* Should take the new props, read out the items actual points for each category and then compute the sum */
-  /*componentWillReceiveProps(nextProps) {
-    for (var key in nextProps.currentItems) {
-      let val = nextProps.currentItems[key];
-      nextProps.itemConfig[key] blah blah
+  componentWillReceiveProps(nextProps) {
+    this.props2progress(nextProps)
+  }
+
+  props2progress(props) {
+    let progress = _.mapValues(this.state.progress, () => 0);
+
+    for (var area in props.currentItems) {
+      if (area in props.itemConfig) {
+        let garment = props.currentItems[area];
+        let scores = props.itemConfig[area]['items'][garment]['category_scores']
+        for (var style in progress) {
+          progress[style] += scores[style]
+        }
+      }
     }
-  }*/
+
+    this.setState({ progress: progress })
+  }
 
   render() {
     const {

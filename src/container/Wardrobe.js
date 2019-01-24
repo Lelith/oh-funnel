@@ -78,7 +78,7 @@ export default class Wardrobe extends Component {
           <SVG src={PaperDoll} />
         </div>
         <Clothing items={Items} onChange={this.handleChangeItem} />
-        <Interpretation itemConfig={Items} currentItems={areas} />
+        <Interpretation itemConfig={Items} currentItems={{ hair: 'bald', topA: 'plain', topB: 'knitted_top_plain', bottom: 'jeans_plain', shoes: 'sport' }} />
       </div>
     );
   }
