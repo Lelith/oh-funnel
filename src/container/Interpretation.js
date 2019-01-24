@@ -10,74 +10,49 @@ export default class Interpretation extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      causalProgressbarValue: 10,
-      sportyProgressbarValue: 20,
-      businessProgressbarValue: 30,
-      hipsterProgressbarValue: 10,
-      hippieProgressbarValue: 50,
-      ballermannProgressbarValue: 100
+      progress: {
+        "casual": 10,
+        "sporty": 20,
+        "business": 30,
+        "hipster": 10,
+        "hippie": 50,
+        "ballermann": 10
+      }
     };
   }
 
+  /* Should take the new props, read out the items actual points for each category and then compute the sum */
+  /*componentWillReceiveProps(nextProps) {
+    for (var key in nextProps.currentItems) {
+      let val = nextProps.currentItems[key];
+      nextProps.itemConfig[key] blah blah
+    }
+  }*/
+
   render() {
     const {
-      causalProgressbarValue,
-      sportyProgressbarValue,
-      businessProgressbarValue,
-      hipsterProgressbarValue,
-      hippieProgressbarValue,
-      ballermannProgressbarValue,
+      progress
     } = this.state;
 
-    let thougBubbleContent;
-    let thoughBubbleStyle;
-    if (causalProgressbarValue >= 100) {
-      thougBubbleContent = <div id='containerTrophy'><img src={trophy} /><br /><h2>No. 1 Medium Dude!</h2></div>;
-      thoughBubbleStyle = {
-        backgroundImage: 'url(' + thoughtbubblestarts + '), url(' + thoughtbubble + ')'
-      };
-    } else if (sportyProgressbarValue >= 100) {
-      thougBubbleContent = <div id='containerTrophy'><img src={trophy} /><br /><h2>No. 1 Wanna-be Sport Star!</h2></div>;
-      thoughBubbleStyle = {
-        backgroundImage: 'url(' + thoughtbubblestarts + '), url(' + thoughtbubble + ')'
-      };
-    } else if (businessProgressbarValue >= 100) {
-      thougBubbleContent = <div id='containerTrophy'><img src={trophy} /><br /><h2>No. 1 Businesser!</h2></div>;
-      thoughBubbleStyle = {
-        backgroundImage: 'url(' + thoughtbubblestarts + '), url(' + thoughtbubble + ')'
-      };
-    } else if (hipsterProgressbarValue >= 100) {
-      thougBubbleContent = <div id='containerTrophy'><img src={trophy} /><br /><h2>No. 1 Hipster!</h2></div>;
-      thoughBubbleStyle = {
-        backgroundImage: 'url(' + thoughtbubblestarts + '), url(' + thoughtbubble + ')'
-      };
-    } else if (hippieProgressbarValue >= 100) {
-      thougBubbleContent = <div id='containerTrophy'><img src={trophy} /><br /><h2>No. 1 Hippie!</h2></div>;
-      thoughBubbleStyle = {
-        backgroundImage: 'url(' + thoughtbubblestarts + '), url(' + thoughtbubble + ')'
-      };
-    } else if (ballermannProgressbarValue >= 100) {
-      thougBubbleContent = <div id='containerTrophy'><img src={trophy} /><br /><h2>You are Ballermann!</h2></div>;
-      thoughBubbleStyle = {
-        backgroundImage: 'url(' + thoughtbubblestarts + '), url(' + thoughtbubble + ')'
-      };
-    } else {
-      thougBubbleContent = 
-        <div id='containerProgressbars'>
-          <div className='progress-bar-group'>
-            Casual: <ProgressBar id='causalProgressbar' value={ causalProgressbarValue } />
-            Sporty: <ProgressBar id='sportyProgressbar' value={ sportyProgressbarValue } />
-            Business: <ProgressBar id='businessProgressbar' value={ businessProgressbarValue } />
-          </div>
-          <div className='progress-bar-group'>
-            Hipster: <ProgressBar id='hipsterProgressbar' value={ hipsterProgressbarValue } />
-            Hippie: <ProgressBar id='hippieProgressbar' value={ hippieProgressbarValue } />
-            Ballermann: <ProgressBar id='ballermannProgressbar' value={ ballermannProgressbarValue } />
-          </div>
-        </div>;
-        thoughBubbleStyle = {
-          backgroundImage: 'url(' + thoughtbubble + ')'
-        };
+    let thougBubbleContent = 
+    <div id='containerProgressbars'>
+        Casual: <ProgressBar id='causalProgressbar' value={ progress['casual'] } />
+        Sporty: <ProgressBar id='sportyProgressbar' value={ progress['sporty'] } />
+        Business: <ProgressBar id='businessProgressbar' value={ progress['business'] } />
+        Hipster: <ProgressBar id='hipsterProgressbar' value={ progress['hipster'] } />
+        Hippie: <ProgressBar id='hippieProgressbar' value={ progress['hippie'] } />
+        Ballermann: <ProgressBar id='ballermannProgressbar' value={ progress['ballermann'] } />
+    </div>;
+    let thoughBubbleStyle = {
+      backgroundImage: 'url(' + thoughtbubble + ')'
+    };
+
+    for (var style in progress) {
+      let value = progress[style];
+      if (value > 100) {
+        thougBubbleContent = <div id='containerTrophy'><img src={trophy} /><br /><h2>No. 1 { style }!</h2></div>;
+        thoughBubbleStyle = { backgroundImage: 'url(' + thoughtbubblestarts + '), url(' + thoughtbubble + ')' };
+      }
     }
 
     return (

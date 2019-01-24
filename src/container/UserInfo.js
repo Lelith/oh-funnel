@@ -12,7 +12,7 @@ const UserInfo = (props) => {
   } = userInfo;
 
   return (
-    <div>
+    <div id='userInfo'>
       <h2>Tell us About You</h2>
       <h3>What hair color do you have?</h3>
       <label htmlFor="hair_blonde">

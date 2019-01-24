@@ -13,8 +13,17 @@ code {
     monospace;
 }
 
+#userInfo {
+    float: left;
+}
+
 #paperdoll {
   position: relative;
+  float: left;
+}
+
+#clothing {
+    float: left;
 }
 
 .area {
@@ -33,6 +42,10 @@ code {
   z-index: 50;
 }
 
+#containerInterpretation {
+    clear: left;
+}
+
 #containerUnicorn {
     float: left;
     width: 178px;
@@ -44,16 +57,14 @@ code {
 
 #containerThoughtBubble {
     float: left;
-    display: inline;
     width: 600px;
     height: 433px;
-    /*background-image: url('images/thought_bubble_stars.gif'), url('images/thought_bubble.png');*/
     background-repeat: no-repeat;
 }
 
 #containerProgressbars {
-    margin-left: 270px;
-    margin-top: 120px;
+    margin-left: 260px;
+    margin-top: 70px;
 }
 
 #containerTrophy {
@@ -62,16 +73,12 @@ code {
     margin-top: 90px;
 }
 
-.progress-bar-group {
-    float: left;
-}
-
 .progress-bar {
     position: relative;
     height: 20px;
-    width: 100px;
+    width: 200px;
     border-radius: 50px;
-    border: 1px solid #333;
+    border: 2px solid #333;
 }
 
 .filler {

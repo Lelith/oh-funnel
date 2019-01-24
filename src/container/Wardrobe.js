@@ -11,6 +11,7 @@ import Boots from '../images/boots_doll.svg';
 import Area from '../components/Area';
 import UserInfo from './UserInfo';
 import Clothing from './Clothing';
+import Interpretation from './Interpretation';
 
 export default class Wardrobe extends Component {
   constructor(props) {
@@ -77,6 +78,7 @@ export default class Wardrobe extends Component {
           <SVG src={PaperDoll} />
         </div>
         <Clothing items={Items} onChange={this.handleChangeItem} />
+        <Interpretation itemConfig={Items} currentItems={areas} />
       </div>
     );
   }

@@ -23,7 +23,7 @@ const Clothing = (props) => {
   });
 
   return (
-    <div>
+    <div id='clothing'>
       {Sections}
     </div>
   );
