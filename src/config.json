@@ -1,351 +1,363 @@
 {
   "top_a": {
-    "plain": {
-      "category_scores": {
-        "hipster":0,
-        "sporty":25,
-        "business":0,
-        "hippie":0,
-        "casual":25,
-        "ballermann":0
+    "name": "Shirt",
+    "items": {
+      "plain": {
+        "category_scores": {
+          "hipster": 0,
+          "sporty": 25,
+          "business": 0,
+          "hippie": 0,
+          "casual": 25,
+          "ballermann": 0
+        },
+        "img_name": "Shirt"
       },
-      "img_name":"Shirt"
-    },
-    "paint": {
-      "category_scores": {
-        "hipster":0,
-        "sporty":10,
-        "business":0,
-        "hippie":25,
-        "casual":10,
-        "ballermann":10
+      "paint": {
+        "category_scores": {
+          "hipster": 0,
+          "sporty": 10,
+          "business": 0,
+          "hippie": 25,
+          "casual": 10,
+          "ballermann": 10
+        },
+        "img_name": "TopAPaint"
       },
-      "img_name":"TopAPaint"
-    },
-    "text": {
-      "category_scores": {
-        "hipster":10,
-        "sporty":0,
-        "business":0,
-        "hippie":0,
-        "casual":10,
-        "ballermann":10
+      "text": {
+        "category_scores": {
+          "hipster": 10,
+          "sporty": 0,
+          "business": 0,
+          "hippie": 0,
+          "casual": 10,
+          "ballermann": 10
+        },
+        "img_name": "top_a_text.svg"
       },
-      "img_name":"top_a_text.svg"
-    },
-    "stripes": {
-      "category_scores": {
-        "hipster":10,
-        "sporty":10,
-        "business":0,
-        "hippie":0,
-        "casual":25,
-        "ballermann":0
+      "stripes": {
+        "category_scores": {
+          "hipster": 10,
+          "sporty": 10,
+          "business": 0,
+          "hippie": 0,
+          "casual": 25,
+          "ballermann": 0
+        },
+        "img_name": "top_a_stripes.svg"
       },
-      "img_name":"top_a_stripes.svg"
-    },
-    "polo": {
-      "category_scores": {
-        "hipster":0,
-        "sporty":0,
-        "business":10,
-        "hippie":0,
-        "casual":10,
-        "ballermann":0
+      "polo": {
+        "category_scores": {
+          "hipster": 0,
+          "sporty": 0,
+          "business": 10,
+          "hippie": 0,
+          "casual": 10,
+          "ballermann": 0
+        },
+        "img_name": "top_a_polo.svg"
       },
-      "img_name":"top_a_polo.svg"
-    },
-    "deep_u": {
-      "category_scores": {
-        "hipster":25,
-        "sporty":0,
-        "business":0,
-        "hippie":0,
-        "casual":0,
-        "ballermann":10
+      "deep_u": {
+        "category_scores": {
+          "hipster": 25,
+          "sporty": 0,
+          "business": 0,
+          "hippie": 0,
+          "casual": 0,
+          "ballermann": 10
+        },
+        "img_name": "top_a_deep_u.svg"
       },
-      "img_name":"top_a_deep_u.svg"
-    },
-    "button_up": {
-      "category_scores": {
-        "hipster":10,
-        "sporty":0,
-        "business":25,
-        "hippie":0,
-        "casual":0,
-        "ballermann":0
+      "button_up": {
+        "category_scores": {
+          "hipster": 10,
+          "sporty": 0,
+          "business": 25,
+          "hippie": 0,
+          "casual": 0,
+          "ballermann": 0
+        },
+        "img_name": "top_a_button_up.svg"
       },
-      "img_name":"top_a_button_up.svg"
-    },
-    "short_sleeve": {
-      "category_scores": {
-        "hipster":10,
-        "sporty":0,
-        "business":10,
-        "hippie":0,
-        "casual":10,
-        "ballermann":0
+      "short_sleeve": {
+        "category_scores": {
+          "hipster": 10,
+          "sporty": 0,
+          "business": 10,
+          "hippie": 0,
+          "casual": 10,
+          "ballermann": 0
+        },
+        "img_name": "top_a_short_sleeve.svg"
       },
-      "img_name":"top_a_short_sleeve.svg"
-    },
-    "checkered": {
-      "category_scores": {
-        "hipster":0,
-        "sporty":0,
-        "business":10,
-        "hippie":0,
-        "casual":25,
-        "ballermann":0
+      "checkered": {
+        "category_scores": {
+          "hipster": 0,
+          "sporty": 0,
+          "business": 10,
+          "hippie": 0,
+          "casual": 25,
+          "ballermann": 0
+        },
+        "img_name": "top_a_checkered.svg"
       },
-      "img_name":"top_a_checkered.svg"
-    },
-    "hawaii": {
-      "category_scores": {
-        "hipster":10,
-        "sporty":0,
-        "business":0,
-        "hippie":0,
-        "casual":0,
-        "ballermann":50
-      },
-      "img_name":"top_a_hawaii.svg"
+      "hawaii": {
+        "category_scores": {
+          "hipster": 10,
+          "sporty": 0,
+          "business": 0,
+          "hippie": 0,
+          "casual": 0,
+          "ballermann": 50
+        },
+        "img_name": "top_a_hawaii.svg"
+      }
     }
   },
   "top_b": {
-    "knitted_top_plain": {
-      "category_scores": {
-        "hipster":0,
-        "sporty":0,
-        "business":25,
-        "hippie":0,
-        "casual":10,
-        "ballermann":0
+    "name": "Sweater",
+    "items": {
+      "knitted_top_plain": {
+        "category_scores": {
+          "hipster": 0,
+          "sporty": 0,
+          "business": 25,
+          "hippie": 0,
+          "casual": 10,
+          "ballermann": 0
+        },
+        "img_name": "top_b_knitted_top_plain.svg"
       },
-      "img_name":"top_b_knitted_top_plain.svg"
-    },
-    "knitted_top_striped": {
-      "category_scores": {
-        "hipster":10,
-        "sporty":0,
-        "business":0,
-        "hippie":0,
-        "casual":10,
-        "ballermann":0
+      "knitted_top_striped": {
+        "category_scores": {
+          "hipster": 10,
+          "sporty": 0,
+          "business": 0,
+          "hippie": 0,
+          "casual": 10,
+          "ballermann": 0
+        },
+        "img_name": "top_b_knitted_top_striped.svg"
       },
-      "img_name":"top_b_knitted_top_striped.svg"
-    },
-    "sweashirt_plain": {
-      "category_scores": {
-        "hipster":0,
-        "sporty":10,
-        "business":0,
-        "hippie":0,
-        "casual":25,
-        "ballermann":10
+      "sweashirt_plain": {
+        "category_scores": {
+          "hipster": 0,
+          "sporty": 10,
+          "business": 0,
+          "hippie": 0,
+          "casual": 25,
+          "ballermann": 10
+        },
+        "img_name": "top_b_sweashirt_plain.svg"
       },
-      "img_name":"top_b_sweashirt_plain.svg"
-    },
-    "sweashirt_print": {
-      "category_scores": {
-        "hipster":10,
-        "sporty":25,
-        "business":0,
-        "hippie":0,
-        "casual":10,
-        "ballermann":0
+      "sweashirt_print": {
+        "category_scores": {
+          "hipster": 10,
+          "sporty": 25,
+          "business": 0,
+          "hippie": 0,
+          "casual": 10,
+          "ballermann": 0
+        },
+        "img_name": "top_b_sweashirt_print.svg"
       },
-      "img_name":"top_b_sweashirt_print.svg"
-    },
-    "sweashirt_text": {
-      "category_scores": {
-        "hipster":25,
-        "sporty":10,
-        "business":0,
-        "hippie":0,
-        "casual":10,
-        "ballermann":10
+      "sweashirt_text": {
+        "category_scores": {
+          "hipster": 25,
+          "sporty": 10,
+          "business": 0,
+          "hippie": 0,
+          "casual": 10,
+          "ballermann": 10
+        },
+        "img_name": "top_b_sweashirt_text.svg"
       },
-      "img_name":"top_b_sweashirt_text.svg"
-    },
-    "hoodie_plain": {
-      "category_scores": {
-        "hipster":0,
-        "sporty":25,
-        "business":0,
-        "hippie":10,
-        "casual":10,
-        "ballermann":10
+      "hoodie_plain": {
+        "category_scores": {
+          "hipster": 0,
+          "sporty": 25,
+          "business": 0,
+          "hippie": 10,
+          "casual": 10,
+          "ballermann": 10
+        },
+        "img_name": "top_b_hoodie_plain.svg"
       },
-      "img_name":"top_b_hoodie_plain.svg"
-    },
-    "pullover": {
-      "category_scores": {
-        "hipster":25,
-        "sporty":0,
-        "business":10,
-        "hippie":25,
-        "casual":10,
-        "ballermann":0
+      "pullover": {
+        "category_scores": {
+          "hipster": 25,
+          "sporty": 0,
+          "business": 10,
+          "hippie": 25,
+          "casual": 10,
+          "ballermann": 0
+        },
+        "img_name": "top_b_pullover.svg"
       },
-      "img_name":"top_b_pullover.svg"
-    },
-    "vest": {
-      "category_scores": {
-        "hipster":10,
-        "sporty":0,
-        "business":25,
-        "hippie":0,
-        "casual":0,
-        "ballermann":0
+      "vest": {
+        "category_scores": {
+          "hipster": 10,
+          "sporty": 0,
+          "business": 25,
+          "hippie": 0,
+          "casual": 0,
+          "ballermann": 0
+        },
+        "img_name": "top_b_vest.svg"
       },
-      "img_name":"top_b_vest.svg"
-    },
-    "blazer": {
-      "category_scores": {
-        "hipster":0,
-        "sporty":0,
-        "business":25,
-        "hippie":0,
-        "casual":0,
-        "ballermann":0
-      },
-      "img_name":"top_b_blazer.svg"
+      "blazer": {
+        "category_scores": {
+          "hipster": 0,
+          "sporty": 0,
+          "business": 25,
+          "hippie": 0,
+          "casual": 0,
+          "ballermann": 0
+        },
+        "img_name": "top_b_blazer.svg"
+      }
     }
   },
   "bottom": {
-    "jeans_plain": {
-      "category_scores": {
-        "hipster":10,
-        "sporty":10,
-        "business":0,
-        "hippie":10,
-        "casual":25,
-        "ballermann":10
+    "name": "Trousers",
+    "items": {
+      "jeans_plain": {
+        "category_scores": {
+          "hipster": 10,
+          "sporty": 10,
+          "business": 0,
+          "hippie": 10,
+          "casual": 25,
+          "ballermann": 10
+        },
+        "img_name": "bottom_jeans_plain.svg"
       },
-      "img_name":"bottom_jeans_plain.svg"
-    },
-    "jeans_holes": {
-      "category_scores": {
-        "hipster":0,
-        "sporty":10,
-        "business":0,
-        "hippie":10,
-        "casual":10,
-        "ballermann":0
+      "jeans_holes": {
+        "category_scores": {
+          "hipster": 0,
+          "sporty": 10,
+          "business": 0,
+          "hippie": 10,
+          "casual": 10,
+          "ballermann": 0
+        },
+        "img_name": "bottom_jeans_holes.svg"
       },
-      "img_name":"bottom_jeans_holes.svg"
-    },
-    "flares": {
-      "category_scores": {
-        "hipster":0,
-        "sporty":0,
-        "business":0,
-        "hippie":25,
-        "casual":0,
-        "ballermann":0
+      "flares": {
+        "category_scores": {
+          "hipster": 0,
+          "sporty": 0,
+          "business": 0,
+          "hippie": 25,
+          "casual": 0,
+          "ballermann": 0
+        },
+        "img_name": "bottom_flares.svg"
       },
-      "img_name":"bottom_flares.svg"
-    },
-    "chinos": {
-      "category_scores": {
-        "hipster":25,
-        "sporty":0,
-        "business":10,
-        "hippie":0,
-        "casual":10,
-        "ballermann":0
+      "chinos": {
+        "category_scores": {
+          "hipster": 25,
+          "sporty": 0,
+          "business": 10,
+          "hippie": 0,
+          "casual": 10,
+          "ballermann": 0
+        },
+        "img_name": "bottom_chinos.svg"
       },
-      "img_name":"bottom_chinos.svg"
-    },
-    "suit_trousers": {
-      "category_scores": {
-        "hipster":0,
-        "sporty":0,
-        "business":25,
-        "hippie":0,
-        "casual":10,
-        "ballermann":0
+      "suit_trousers": {
+        "category_scores": {
+          "hipster": 0,
+          "sporty": 0,
+          "business": 25,
+          "hippie": 0,
+          "casual": 10,
+          "ballermann": 0
+        },
+        "img_name": "bottom_suit_trousers.svg"
       },
-      "img_name":"bottom_suit_trousers.svg"
-    },
-    "kilt": {
-      "category_scores": {
-        "hipster":25,
-        "sporty":0,
-        "business":0,
-        "hippie":0,
-        "casual":0,
-        "ballermann":0
+      "kilt": {
+        "category_scores": {
+          "hipster": 25,
+          "sporty": 0,
+          "business": 0,
+          "hippie": 0,
+          "casual": 0,
+          "ballermann": 0
+        },
+        "img_name": "bottom_kilt.svg"
       },
-      "img_name":"bottom_kilt.svg"
-    },
-    "shorts": {
-      "category_scores": {
-        "hipster":0,
-        "sporty":25,
-        "business":0,
-        "hippie":0,
-        "casual":10,
-        "ballermann":25
-      },
-      "img_name":"bottom_shorts.svg"
+      "shorts": {
+        "category_scores": {
+          "hipster": 0,
+          "sporty": 25,
+          "business": 0,
+          "hippie": 0,
+          "casual": 10,
+          "ballermann": 25
+        },
+        "img_name": "bottom_shorts.svg"
+      }
     }
   },
   "shoes": {
-    "sport": {
-      "category_scores": {
-        "hipster":0,
-        "sporty":25,
-        "business":0,
-        "hippie":0,
-        "casual":10,
-        "ballermann":25
+    "name": "Shoes",
+    "items": {
+      "sport": {
+        "category_scores": {
+          "hipster": 0,
+          "sporty": 25,
+          "business": 0,
+          "hippie": 0,
+          "casual": 10,
+          "ballermann": 25
+        },
+        "img_name": "shoes_sport.svg"
       },
-      "img_name":"shoes_sport.svg"
-    },
-    "sneakers": {
-      "category_scores": {
-        "hipster":10,
-        "sporty":10,
-        "business":0,
-        "hippie":0,
-        "casual":25,
-        "ballermann":0
+      "sneakers": {
+        "category_scores": {
+          "hipster": 10,
+          "sporty": 10,
+          "business": 0,
+          "hippie": 0,
+          "casual": 25,
+          "ballermann": 0
+        },
+        "img_name": "shoes_sneakers.svg"
       },
-      "img_name":"shoes_sneakers.svg"
-    },
-    "business": {
-      "category_scores": {
-        "hipster":0,
-        "sporty":0,
-        "business":25,
-        "hippie":0,
-        "casual":10,
-        "ballermann":0
+      "business": {
+        "category_scores": {
+          "hipster": 0,
+          "sporty": 0,
+          "business": 25,
+          "hippie": 0,
+          "casual": 10,
+          "ballermann": 0
+        },
+        "img_name": "shoes_business.svg"
       },
-      "img_name":"shoes_business.svg"
-    },
-    "boots": {
-      "category_scores": {
-        "hipster":25,
-        "sporty":0,
-        "business":0,
-        "hippie":0,
-        "casual":0,
-        "ballermann":0
+      "boots": {
+        "category_scores": {
+          "hipster": 25,
+          "sporty": 0,
+          "business": 0,
+          "hippie": 0,
+          "casual": 0,
+          "ballermann": 0
+        },
+        "img_name": "shoes_boots.svg"
       },
-      "img_name":"shoes_boots.svg"
-    },
-    "sandals": {
-      "category_scores": {
-        "hipster":0,
-        "sporty":0,
-        "business":0,
-        "hippie":25,
-        "casual":10,
-        "ballermann":10
-      },
-      "img_name":"sandals"
+      "sandals": {
+        "category_scores": {
+          "hipster": 0,
+          "sporty": 0,
+          "business": 0,
+          "hippie": 25,
+          "casual": 10,
+          "ballermann": 10
+        },
+        "img_name": "sandals"
+      }
     }
   }
 }
