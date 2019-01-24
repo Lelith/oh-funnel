@@ -3,10 +3,9 @@ import SVG from 'react-inlinesvg';
 import PropTypes from 'prop-types';
 
 const Area = (props) => {
-
   const {
     svg,
-    id
+    id,
   } = props;
 
   return (
@@ -14,16 +13,15 @@ const Area = (props) => {
       <SVG src={svg} />
     </div>
   );
-
 };
 
-
 Area.propTypes = {
-  svg: PropTypes.any
+  svg: PropTypes.any,
+  id: PropTypes.string.isRequired,
 };
 
 Area.defaultProps = {
-  svg: ''
+  svg: '',
 };
 
 export default Area;

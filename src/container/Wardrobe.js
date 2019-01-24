@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import SVG from 'react-inlinesvg';
+
 import PaperDoll from '../images/paperdoll.svg';
 import Shirt from '../images/shirt_doll.svg';
 import Trousers from '../images/trousers_doll.svg';
 import Boots from '../images/boots_doll.svg';
+
 import Area from '../components/Area';
+import UserInfo from './UserInfo';
 
 export default class Wardrobe extends Component {
   constructor(props) {
@@ -15,27 +18,52 @@ export default class Wardrobe extends Component {
         topA: Shirt,
         topB: Shirt,
         bottom: Trousers,
-        shoes: Boots
+        shoes: Boots,
       },
-      characteristics: {
-        hipster: 0,
-        sporty: 0,
-        business: 0,
-      }
+      userInfo: {
+        haircolor: 'bald',
+        sizeTop: 'S',
+        sizeBottom: 'S',
+        sizeShoes: '42',
+      },
     };
+
+    this.handleInputChange = this.handleInputChange.bind(this);
+  }
+
+  handleUserInfoChange(event) {
+    const { target } = event;
+    const { name } = target;
+    this.setState({
+      userInfo: {
+        [name]: target,
+      },
+    });
+  }
+
+  handleUserInfoChange(event) {
+    const { target } = event;
+    const { name } = target;
+    this.setState({
+      userInfo: {
+        [name]: target,
+      },
+    });
   }
 
   render() {
+    const { areas, userInfo } = this.state;
     const {
       hair,
       topA,
       topB,
       bottom,
       shoes,
-    } = this.state.areas;
+    } = areas;
 
     return (
       <div>
+        <UserInfo userInfo={userInfo} onChange={this.handleUserInfoChange} />
         <div id="paperdoll">
           <Area svg={hair} id="hair" />
           <Area svg={topA} id="top_a" />
@@ -44,6 +72,7 @@ export default class Wardrobe extends Component {
           <Area svg={shoes} id="shoes" />
           <SVG src={PaperDoll} />
         </div>
+        <Clothing onChange={this.handleChangeItem} />
       </div>
     );
   }
