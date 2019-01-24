@@ -31,7 +31,8 @@ export default class Wardrobe extends Component {
       },
     };
 
-    this.handleInputChange = this.handleInputChange.bind(this);
+    this.handleChangeItem = this.handleChangeItem.bind(this);
+    this.handleChangeUserInfo = this.handleChangeUserInfo.bind(this);
   }
 
   handleChangeUserInfo(event) {

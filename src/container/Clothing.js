@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const Clothing = (props) => {
   const { items, onChange } = props;
 
-  console.table(Items);
+  console.table(items);
   return (
     <div>
     All Items
