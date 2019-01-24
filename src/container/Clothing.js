@@ -3,12 +3,10 @@ import PropTypes from 'prop-types';
 
 const Clothing = (props) => {
   const { items, onChange } = props;
-
   console.table(items);
   return (
     <div>
-      <div className="type">
-      </div>
+      {Sections}
     </div>
   );
 };

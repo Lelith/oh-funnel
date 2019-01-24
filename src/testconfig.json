@@ -1,0 +1,66 @@
+{
+  "top_a": {
+    "name": "Shirts",
+    "items": {
+      "plain": {
+        "category_scores": {
+          "hipster":0,
+          "sporty":25,
+          "business":0,
+          "hippie":0,
+          "casual":25,
+          "ballermann":0
+        },
+        "img_name":"Shirt"
+      },
+    }
+  },
+  "top_b": {
+    "name": "Outerwear",
+    "items": {
+      "jackett": {
+        "category_scores": {
+          "hipster":0,
+          "sporty":25,
+          "business":0,
+          "hippie":0,
+          "casual":25,
+          "ballermann":0
+        },
+        "img_name":"Shirt"
+      },
+    }
+  },
+  "bottom": {
+    "name": "Trousers",
+    "items": {
+      "jeans": {
+        "category_scores": {
+          "hipster":0,
+          "sporty":25,
+          "business":0,
+          "hippie":0,
+          "casual":25,
+          "ballermann":0
+        },
+        "img_name":"Trousers"
+      },
+    }
+  }
+  "shoes": {
+    "name": "Shoes",
+    "items": {
+      "jeans": {
+        "category_scores": {
+          "hipster":0,
+          "sporty":25,
+          "business":0,
+          "hippie":0,
+          "casual":25,
+          "ballermann":0
+        },
+        "img_name":"Boots"
+      },
+    }
+  }
+}
