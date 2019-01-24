@@ -33,10 +33,43 @@ code {
   z-index: 50;
 }
 
+#containerUnicorn {
+    float: left;
+    width: 178px;
+    height: 580px;
+    background-image: url('images/unicorn_dabbing.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+#containerThoughtBubble {
+    float: left;
+    display: inline;
+    width: 600px;
+    height: 433px;
+    /*background-image: url('images/thought_bubble_stars.gif'), url('images/thought_bubble.png');*/
+    background-repeat: no-repeat;
+}
+
+#containerProgressbars {
+    margin-left: 270px;
+    margin-top: 120px;
+}
+
+#containerTrophy {
+    text-align: center;
+    margin-left: 160px;
+    margin-top: 90px;
+}
+
+.progress-bar-group {
+    float: left;
+}
+
 .progress-bar {
     position: relative;
     height: 20px;
-    width: 350px;
+    width: 100px;
     border-radius: 50px;
     border: 1px solid #333;
 }
