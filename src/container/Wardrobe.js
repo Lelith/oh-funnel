@@ -19,10 +19,10 @@ export default class Wardrobe extends Component {
     this.state = {
       areas: {
         hair: 'bald',
-        topA: Shirt,
-        topB: Shirt,
-        bottom: Trousers,
-        shoes: Boots,
+        top_a: 'undefined',
+        top_b: 'undefined',
+        bottom: 'undefined',
+        shoes: 'undefined',
       },
       userInfo: {
         haircolor: 'bald',
@@ -47,13 +47,14 @@ export default class Wardrobe extends Component {
   }
 
   handleChangeItem(event) {
-    const { target } = event;
-    const { name } = target;
-    this.setState({
+    event.stopPropagation();
+    const { area, item } = event.target.dataset;
+    this.setState(prevState => ({
       areas: {
-        [name]: target,
+        ...prevState.areas,
+        [area]: item,
       },
-    });
+    }));
   }
 
   render() {
