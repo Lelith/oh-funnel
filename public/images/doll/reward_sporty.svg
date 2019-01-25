@@ -17,7 +17,7 @@
    style="enable-background:new 0 0 356.65 475.53;"
    xml:space="preserve"
    id="svg2561"
-   sodipodi:docname="shoes_sneakers.svg"
+   sodipodi:docname="reward_sporty.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"><metadata
    id="metadata2567"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
@@ -36,8 +36,8 @@
    id="namedview2563"
    showgrid="false"
    inkscape:zoom="1.9851534"
-   inkscape:cx="149.90513"
-   inkscape:cy="160.19335"
+   inkscape:cx="111.97704"
+   inkscape:cy="272.45011"
    inkscape:window-x="67"
    inkscape:window-y="27"
    inkscape:window-maximized="1"
@@ -84,16 +84,15 @@
 	.st30{fill:none;stroke:#4F4F4F;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	
 		.st31{display:inline;fill:#4F4F4F;stroke:#4F4F4F;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st32{fill:#C2C1C0;stroke:#4F4F4F;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st33{fill:none;stroke:#4F4F4F;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st32{display:inline;fill:#C2C1C0;stroke:#4F4F4F;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	
-		.st34{display:inline;fill:#C2C1C0;stroke:#4F4F4F;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st35{display:inline;fill:#C2C1C0;stroke:#4F4F4F;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st36{display:inline;fill:none;stroke:#4F4F4F;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st37{fill:#C2C1C0;stroke:#4F4F4F;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st38{font-family:'OpenSans-Bold';}
-	.st39{font-size:17.7935px;}
-	.st40{display:inline;fill:#4F4F4F;stroke:#4F4F4F;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+		.st33{display:inline;fill:#C2C1C0;stroke:#4F4F4F;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st34{display:inline;fill:none;stroke:#4F4F4F;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st35{fill:#FFFFFF;stroke:#4F4F4F;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st36{fill:#C2C1C0;stroke:#4F4F4F;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st37{font-family:'OpenSans-Bold';}
+	.st38{font-size:17.7935px;}
+	.st39{display:inline;fill:#4F4F4F;stroke:#4F4F4F;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 
 
@@ -4992,13 +4991,14 @@
 	</g>
 </g>
 <g
-   id="Layer_27">
+   id="Layer_27"
+   class="st2">
 	<path
-   class="st4"
+   class="st6"
    d="M153.57,437.15h-51.58c0,0-3.65-5.99,2.9-8.82l23.14-9.5l0.3-9.07c0,0,22.29,3.98,29.37,1.86L153.57,437.15z"
    id="path2494" />
 	<path
-   class="st4"
+   class="st6"
    d="M201.33,436.15h51.58c0,0,3.65-5.99-2.9-8.82l-23.14-9.5l-0.3-9.07c0,0-22.29,3.98-29.37,1.86L201.33,436.15z"
    id="path2496" />
 	<line
@@ -5024,21 +5024,21 @@
    d="M197.2,410.6c0,0-3.17-5.76-5.41-3.53c0,0,1.28,5.63,4.2,4.76"
    id="path2504" />
 	<polyline
-   class="st33"
+   class="st28"
    points="109.02,427.02 112.42,429.17 112.86,425.87 117.67,427.15 117.94,424.27 121.71,425.94    121.71,422.02 126.45,424.05 126.39,420.46  "
    id="polyline2506" />
 	<polyline
-   class="st33"
+   class="st28"
    points="246.8,426.84 243.4,428.99 242.97,425.69 238.15,426.97 237.89,424.08 234.11,425.76 234.11,421.83    229.37,423.87 229.43,420.27  "
    id="polyline2508" />
 	<circle
-   class="st33"
+   class="st28"
    cx="142.77"
    cy="422.37"
    r="4.28"
    id="circle2510" />
 	<circle
-   class="st33"
+   class="st28"
    cx="213.01"
    cy="421.37"
    r="4.28"
@@ -5052,34 +5052,32 @@
    points="182.75,88.48 188.9,98.61 189.08,88.29  "
    id="polygon2515" />
 	<path
-   class="st34"
+   class="st33"
    d="M182.78,75.48c5.26-1.75,7.39,2.07,7.39,2.07h4.25c0.7-2.98,4.91-2.63,5.73-1.4   c2.49,3.75,5.14,17.36,5.14,17.82c-0.04,5.5-16.63,14.14-27.24,9.66c-6.48-2.74-11.26-27.79-11.26-27.79l15.29,1.25L182.78,75.48z"
    id="path2517" />
 	<line
-   class="st35"
+   class="st32"
    x1="188.66"
    y1="81.32"
    x2="193.1"
    y2="81.32"
    id="line2519" />
 	<path
-   class="st36"
+   class="st34"
    d="M167.59,57.44c-1.72-1.37-5.68-4.36-5.04,0.43c0,0-0.55,5.04,2.83,6.51c0,0,1.92,0.56,2.21-1.72"
    id="path2521" />
 </g>
 <g
-   id="Layer_29"
-   class="st2">
+   id="Layer_29">
 	<path
-   class="st13"
+   class="st35"
    d="M257.27,286.58c0,0-21.05-14.41-12.75,13.36c8.31,27.77,15.91,17.28,15.91,17.28L257.27,286.58z"
    id="path2524" />
 	<path
-   class="st15"
+   class="st1"
    d="M321.36,309.05c0,0,25.44,1.85,1.65,18.39c-23.8,16.55-23.21,3.6-23.21,3.6L321.36,309.05z"
    id="path2526" />
 	<g
-   class="st3"
    id="g2538">
 		<polyline
    class="st4"
@@ -5104,7 +5102,7 @@
    id="path2534" />
 		<text
    transform="matrix(0.944 0.33 -0.33 0.944 264.9092 309.2854)"
-   class="st37 st38 st39"
+   class="st36 st37 st38"
    id="text2536">MVP</text>
 
 	</g>
@@ -5113,18 +5111,18 @@
    id="Layer_30"
    class="st2">
 	<path
-   class="st34"
+   class="st33"
    d="M147.6,369.51H64.06c-2.8,0-5.07-2.27-5.07-5.07v-63.96c0-2.8,2.27-5.07,5.07-5.07h83.54   c2.8,0,5.07,2.27,5.07,5.07v63.96C152.66,367.24,150.4,369.51,147.6,369.51z"
    id="path2541" />
 	<rect
    x="91.46"
    y="291.11"
-   class="st34"
+   class="st33"
    width="28.44"
    height="8.6"
    id="rect2543" />
 	<line
-   class="st34"
+   class="st33"
    x1="84.49"
    y1="327.68"
    x2="129.9"
@@ -5139,26 +5137,26 @@
    points="194.94,84.82 194.94,88.12 199.95,85.14  "
    id="polygon2548" />
 	<polyline
-   class="st35"
+   class="st32"
    points="189.26,80.47 223.98,76.55 223.98,83.05 189.07,81.97  "
    id="polyline2550" />
 	<ellipse
-   class="st40"
+   class="st39"
    cx="223.06"
    cy="79.8"
    rx="1.6"
    ry="3.25"
    id="ellipse2552" />
 	<path
-   class="st40"
+   class="st39"
    d="M224.67,55.25c0,0,8.67,5.35,0,11.62c0,0-4.43,1.37,1.93,5.29"
    id="path2554" />
 	<path
-   class="st40"
+   class="st39"
    d="M218.32,15.5c0,0,8.67,7.34,0,15.95c0,0-4.43,1.88,1.93,7.26"
    id="path2556" />
 	<path
-   class="st40"
+   class="st39"
    d="M230.17,31.34c0,0,8.67,4.66,0,10.13c0,0-4.43,1.2,1.93,4.61"
    id="path2558" />
 </g>

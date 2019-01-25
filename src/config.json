@@ -358,14 +358,25 @@
         },
         "img_name": "shoes_boots.svg"
       },
-      "sneakers": {
+      "sport": {
         "category_scores": {
-          "hipster": 10,
+          "hipster": 0,
           "sporty": 25,
           "business": 0,
           "hippie": 0,
-          "casual": 25,
+          "casual": 10,
           "ballermann": 25
+        },
+        "img_name": "shoes_sport.svg"
+      },
+      "sneakers": {
+        "category_scores": {
+          "hipster": 10,
+          "sporty": 10,
+          "business": 0,
+          "hippie": 0,
+          "casual": 25,
+          "ballermann": 0
         },
         "img_name": "shoes_sneakers.svg"
       },
