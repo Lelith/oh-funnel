@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SVG from 'react-inlinesvg';
 
-import Items from '../testconfig.json';
+import Items from '../config.json';
 
 import PaperDoll from '../images/paperdoll.svg';
 import Shirt from '../images/shirt_doll.svg';

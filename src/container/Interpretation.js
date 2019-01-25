@@ -71,8 +71,14 @@ export default class Interpretation extends Component {
 
     for (var style in progress) {
       let value = progress[style];
-      if (value > 100) {
-        thougBubbleContent = <div id='containerTrophy'><img src={trophy} /><br /><h2>No. 1 { style }!</h2></div>;
+      if (value > 100 || style === 'hipster') {
+        thougBubbleContent = 
+            <div id='containerTrophy'>
+                <button key={ style } type="button" className='rewardButton'>
+                    <img src={ '/images/icon/reward_' + style + '.svg' } alt={ style } />
+                </button><br />
+                <h2>No. 1 { style }!</h2>
+            </div>;
         thoughBubbleStyle = { backgroundImage: 'url(' + thoughtbubblestarts + '), url(' + thoughtbubble + ')' };
       }
     }

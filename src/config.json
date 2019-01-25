@@ -11,7 +11,7 @@
           "casual": 25,
           "ballermann": 0
         },
-        "img_name": "Shirt"
+        "img_name": "top_a_plain.svg"
       },
       "paint": {
         "category_scores": {
@@ -22,7 +22,7 @@
           "casual": 10,
           "ballermann": 10
         },
-        "img_name": "TopAPaint"
+        "img_name": "top_a_paint.svg"
       },
       "text": {
         "category_scores": {
@@ -139,7 +139,7 @@
         },
         "img_name": "top_b_knitted_top_striped.svg"
       },
-      "sweashirt_plain": {
+      "sweatshirt_plain": {
         "category_scores": {
           "hipster": 0,
           "sporty": 10,
@@ -148,7 +148,7 @@
           "casual": 25,
           "ballermann": 10
         },
-        "img_name": "top_b_sweashirt_plain.svg"
+        "img_name": "top_b_sweatshirt_plain.svg"
       },
       "sweashirt_print": {
         "category_scores": {
@@ -356,7 +356,7 @@
           "casual": 10,
           "ballermann": 10
         },
-        "img_name": "sandals"
+        "img_name": "shoes_sandals.svg"
       }
     }
   }

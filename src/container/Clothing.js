@@ -1,8 +1,7 @@
 /* eslint-disable no-unused-expressions */
 import React from 'react';
 import PropTypes from 'prop-types';
-import SVG from 'react-inlinesvg';
-import ItemImages from './TestItems';
+
 
 const SectionItems = (props) => {
   const { areaName, sectionItems, onClick } = props;
@@ -10,7 +9,6 @@ const SectionItems = (props) => {
     <ul>
       {
         Object.keys(sectionItems).map((item) => {
-          const svgsrc = sectionItems[item].img_name;
           console.log();
           return (
             <label key={item} htmlFor={item}>
@@ -23,7 +21,7 @@ const SectionItems = (props) => {
                 data-area={areaName}
                 data-item={item}
               />
-              <SVG src={ItemImages[svgsrc]} />
+                  <img src={ '/images/icon/' + sectionItems[item]['img_name'] } alt={ item } />
             </label>
           );
         })

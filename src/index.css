@@ -42,6 +42,18 @@ code {
   z-index: 50;
 }
 
+.iconButton > img {
+    width: 90px;
+}
+
+.rewardButton {
+    background-color: Transparent;
+}
+
+.rewardButton > img {
+    height: 200px;
+}
+
 #containerInterpretation {
     clear: left;
 }
