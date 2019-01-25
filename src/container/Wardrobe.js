@@ -47,9 +47,6 @@ export default class Wardrobe extends Component {
 
     return (
       <div id="wardrobe">
-        <div id="header">
-            <h1>PAPER DOLL</h1>
-        </div>
         <div id="paperdoll" className="container">
           <Area areaItems={UserItems.hair} item={hair} id="hair" />
           <Area areaItems={Items.top_a} item={top_a} id="top_a" />

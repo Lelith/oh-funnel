@@ -22,7 +22,7 @@ code {
   grid-row-gap: 20px;
   grid-template-columns: auto repeat(12, minmax(auto, 100px)) auto;
   grid-template-areas:
-  'hd hd hd hd hd hd hd hd hd hd hd hd hd hd' '. doll doll doll doll doll drawer drawer drawer drawer drawer drawer drawer .'
+  '. doll doll doll doll doll drawer drawer drawer drawer drawer drawer drawer .'
   '. interpreter interpreter interpreter interpreter interpreter interpreter interpreter interpreter interpreter interpreter interpreter interpreter .';
 }
 
