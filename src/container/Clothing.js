@@ -27,7 +27,7 @@ const SectionItems = (props) => {
     </ul>
   );
 };
-
+/*dfdfd*/
 const Clothing = (props) => {
   const { items, onChange } = props;
 
