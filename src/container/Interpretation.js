@@ -37,9 +37,13 @@ export default class Interpretation extends Component {
     for (var area in props.currentItems) {
       if (area in props.itemConfig) {
         let garment = props.currentItems[area];
-        let scores = props.itemConfig[area]['items'][garment]['category_scores']
-        for (var style in progress) {
-          progress[style] += scores[style]
+        if (garment in props.itemConfig[area]['items']) {
+          let scores = props.itemConfig[area]['items'][garment]['category_scores']
+          for (var style in progress) {
+            progress[style] += scores[style]
+          }
+        } else {
+          console.log('Could not locate scores for ' + garment + ' in ' + area)
         }
       }
     }
