@@ -5,12 +5,13 @@ import PropTypes from 'prop-types';
 const SectionItems = (props) => {
   const { areaName, sectionItems, onClick } = props;
   return (
-    <ul>
+    <div>
       {
         Object.keys(sectionItems).map((item) => {
           return (
             <label key={item} htmlFor={item}>
               <input
+                hidden
                 className="clothingItem"
                 type="radio"
                 id={item}
@@ -24,7 +25,7 @@ const SectionItems = (props) => {
           );
         })
     }
-    </ul>
+    </div>
   );
 };
 
