@@ -19,7 +19,7 @@ const SectionItems = (props) => {
                 data-area={areaName}
                 data-item={item}
               />
-              <img src={ '/images/icon/' + sectionItems[item]['img_name'] } alt={ item } className="iconImage" />
+              <img src={ '/images/icon/' + sectionItems[item]['img_name'] } alt={ item } title={ item } className="iconImage" />
             </label>
           );
         })

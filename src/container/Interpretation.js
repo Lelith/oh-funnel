@@ -3,8 +3,6 @@ import _ from 'lodash';
 
 import ProgressBar from '../components/ProgressBar';
 
-import thoughtbubble from '../images/thought_bubble.png'
-import thoughtbubblestarts from '../images/thought_bubble_stars.gif'
 import stars from '../images/starts.gif'
 
 export default class Interpretation extends Component {

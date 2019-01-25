@@ -263,7 +263,7 @@
           "casual": 25,
           "ballermann": 10
         },
-        "img_name": "bottom_jeans_plain.svg"
+        "img_name": "trousers_jeans.svg"
       },
       "jeans_holes": {
         "category_scores": {
@@ -274,7 +274,7 @@
           "casual": 10,
           "ballermann": 0
         },
-        "img_name": "bottom_jeans_holes.svg"
+        "img_name": "trousers_jeans_holes.svg"
       },
       "flares": {
         "category_scores": {
@@ -285,7 +285,7 @@
           "casual": 0,
           "ballermann": 0
         },
-        "img_name": "bottom_flares.svg"
+        "img_name": "trousers_flares.svg"
       },
       "chinos": {
         "category_scores": {
@@ -296,7 +296,7 @@
           "casual": 10,
           "ballermann": 0
         },
-        "img_name": "bottom_chinos.svg"
+        "img_name": "trousers_chinos.svg"
       },
       "suit_trousers": {
         "category_scores": {
@@ -307,7 +307,7 @@
           "casual": 10,
           "ballermann": 0
         },
-        "img_name": "bottom_suit_trousers.svg"
+        "img_name": "trousers_suite.svg"
       },
       "kilt": {
         "category_scores": {
@@ -318,7 +318,7 @@
           "casual": 0,
           "ballermann": 0
         },
-        "img_name": "bottom_kilt.svg"
+        "img_name": "trousers_kilt.svg"
       },
       "shorts": {
         "category_scores": {
@@ -329,7 +329,7 @@
           "casual": 10,
           "ballermann": 25
         },
-        "img_name": "bottom_shorts.svg"
+        "img_name": "trousers_shorts.svg"
       }
     }
   },
@@ -347,25 +347,25 @@
         },
         "img_name": "undefined.svg"
       },
-      "sport": {
+      "boots": {
         "category_scores": {
-          "hipster": 0,
-          "sporty": 25,
+          "hipster": 25,
+          "sporty": 0,
           "business": 0,
           "hippie": 0,
-          "casual": 10,
-          "ballermann": 25
+          "casual": 0,
+          "ballermann": 0
         },
-        "img_name": "shoes_sport.svg"
+        "img_name": "shoes_boots.svg"
       },
       "sneakers": {
         "category_scores": {
           "hipster": 10,
-          "sporty": 10,
+          "sporty": 25,
           "business": 0,
           "hippie": 0,
           "casual": 25,
-          "ballermann": 0
+          "ballermann": 25
         },
         "img_name": "shoes_sneakers.svg"
       },
@@ -379,17 +379,6 @@
           "ballermann": 0
         },
         "img_name": "shoes_business.svg"
-      },
-      "boots": {
-        "category_scores": {
-          "hipster": 25,
-          "sporty": 0,
-          "business": 0,
-          "hippie": 0,
-          "casual": 0,
-          "ballermann": 0
-        },
-        "img_name": "shoes_boots.svg"
       },
       "sandals": {
         "category_scores": {

@@ -45,13 +45,10 @@ code {
 
 #paperdoll {
   position: relative;
-
-  max-height: 632px;
   grid-area: doll;
 }
 
 #paperdoll img {
-    max-height: 610px;
 }
 
 #clothing {
@@ -93,7 +90,8 @@ code {
 }
 
 .iconImage {
-    width: 90px;
+    max-width: 70px;
+    max-height: 70px;
 }
 
 
