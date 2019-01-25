@@ -70,7 +70,7 @@ export default class Wardrobe extends Component {
     return (
       <div>
         <UserInfo userInfo={userInfo} onChange={this.handleChangeUserInfo} />
-        <div id="paperdoll">
+        <div id="paperdoll" className="container">
           <Area svg={hair} id="hair" />
           <Area svg={topA} id="top_a" />
           <Area svg={topB} id="top_b" />

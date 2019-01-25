@@ -4,6 +4,9 @@ import './App.css';
 
 const App = () => (
   <div className="App">
+    <div id="header">
+      <h1>Paper doll</h1>
+    </div>
     <Wardrobe />
   </div>
 );

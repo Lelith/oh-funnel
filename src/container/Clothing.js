@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-expressions */
+
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -34,6 +34,8 @@ const Clothing = (props) => {
   const { items, onChange } = props;
 
   return (
+    <div id='clothing'>
+      {Sections}
     <div id='clothing'>
       {
         Object.keys(items).map(type => (
