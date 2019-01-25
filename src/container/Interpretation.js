@@ -74,7 +74,7 @@ export default class Interpretation extends Component {
 
     for (var style in progress) {
       let value = progress[style];
-      if (value >= 100 ) {
+      if (value >= 100 || style == 'business' ) {
         thougBubbleContent =
             <div id='containerTrophy'>
                 <label className="trophyContent" key={style} htmlFor={style}>

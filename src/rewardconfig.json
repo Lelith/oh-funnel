@@ -7,6 +7,21 @@
       },
       "hipster": {
         "img_name": "reward_hipster.svg"
+      },
+      "hippie": {
+        "img_name": "reward_hippie.svg"
+      },
+      "sporty": {
+        "img_name": "reward_sporty.svg"
+      },
+      "casual": {
+        "img_name": "reward_casual.svg"
+      },
+      "business": {
+        "img_name": "reward_business.svg"
+      },
+      "ballermann": {
+        "img_name": "reward_ballermann.svg"
       }
     }
   }
