@@ -11,7 +11,6 @@ export default class Wardrobe extends Component {
     super(props);
     this.state = {
       areas: {
-        hair: 'bald',
         top_a: 'undefined1',
         top_b: 'undefined2',
         bottom: 'undefined3',
@@ -47,8 +46,7 @@ export default class Wardrobe extends Component {
 
     return (
       <div id="wardrobe">
-        <div id="paperdoll" className="container">
-          <Area areaItems={UserItems.hair} item={hair} id="hair" />
+        <div id="paperdoll" >
           <Area areaItems={Items.top_a} item={top_a} id="top_a" />
           <Area areaItems={Items.top_b} item={top_b} id="top_b" />
           <Area areaItems={Items.bottom} item={bottom} id="bottom" />

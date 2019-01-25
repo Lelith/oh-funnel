@@ -10,12 +10,12 @@ export default class Interpretation extends Component {
     super(props);
     this.state = {
       progress: {
-        "casual": 10,
-        "sporty": 20,
-        "business": 30,
-        "hipster": 10,
-        "hippie": 50,
-        "ballermann": 10
+        casual: 10,
+        sporty: 20,
+        business: 30,
+        hipster: 10,
+        hippie: 50,
+        ballermann: 10
       }
     };
   }
@@ -74,7 +74,7 @@ export default class Interpretation extends Component {
 
     for (var style in progress) {
       let value = progress[style];
-      if (value >= 100 || style === 'hipster') {
+      if (value >= 100) {
         thougBubbleContent =
             <div id='containerTrophy'>
                 <label className="trophyContent" key={style} htmlFor={style}>

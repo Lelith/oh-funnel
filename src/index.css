@@ -62,10 +62,13 @@ code {
 
 .area {
   position: absolute;
+  width: 100%
 }
 
+.area img {
+
+}
 #hair {
-  background-color: yellow;
   z-index: 90;
 }
 
@@ -144,11 +147,15 @@ code {
 }
 
 .filler {
-    background: #1DA598;
+    background-image: linear-gradient(to right, rgb(36, 132, 198), rgb(25, 149, 200) 51%, rgb(0, 187, 206));
     height: 100%;
     border-radius: inherit;
     transition: width .2s ease-in;
     text-align: center;
     font-size: 12px;
     font-weight: bold;
+}
+
+.clothingItem {
+
 }

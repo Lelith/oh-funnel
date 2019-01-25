@@ -11,15 +11,15 @@ const SectionItems = (props) => {
           return (
             <label key={item} htmlFor={item}>
               <input
-                hidden
+                className="clothingItem"
                 type="radio"
                 id={item}
-                name="ClothingItem"
+                name={`ClothingItem_${areaName}`}
                 onClick={onClick}
                 data-area={areaName}
                 data-item={item}
               />
-              <img src={ '/images/icon/' + sectionItems[item]['img_name'] } alt={ item } title={ item } className="iconImage" />
+              <img src={ '/images/icon/' + sectionItems[item]['img_name'] } alt={ item } className="iconImage" />
             </label>
           );
         })
