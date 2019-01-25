@@ -57,17 +57,6 @@
         },
         "img_name": "top_a_striped.svg"
       },
-      "polo": {
-        "category_scores": {
-          "hipster": 0,
-          "sporty": 0,
-          "business": 10,
-          "hippie": 0,
-          "casual": 10,
-          "ballermann": 0
-        },
-        "img_name": "top_a_polo.svg"
-      },
       "deep_u": {
         "category_scores": {
           "hipster": 25,
@@ -308,17 +297,6 @@
           "ballermann": 0
         },
         "img_name": "trousers_suite.svg"
-      },
-      "kilt": {
-        "category_scores": {
-          "hipster": 25,
-          "sporty": 0,
-          "business": 0,
-          "hippie": 0,
-          "casual": 0,
-          "ballermann": 0
-        },
-        "img_name": "trousers_kilt.svg"
       },
       "shorts": {
         "category_scores": {
