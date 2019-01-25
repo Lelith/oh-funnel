@@ -99,7 +99,7 @@ export default class Interpretation extends Component {
     return (
       <div id='containerInterpretation'>
         <div id='containerUnicorn' />
-        <div id='containerThoughtBubble' style={ thoughBubbleStyle }>
+        <div id='containerThoughtBubble' className="container" style={ thoughBubbleStyle }>
           { thougBubbleContent }
         </div>
       </div>

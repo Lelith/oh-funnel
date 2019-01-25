@@ -17,6 +17,7 @@ code {
 }
 
 #wardrobe {
+<<<<<<< HEAD
   display: grid;
   grid-column-gap: 18px;
   grid-row-gap: 20px;
@@ -24,6 +25,9 @@ code {
   grid-template-areas:
   'hd hd hd hd hd hd hd hd hd hd hd hd hd hd' '. doll doll doll doll doll drawer drawer drawer drawer drawer drawer drawer .'
   '. interpreter interpreter interpreter interpreter interpreter interpreter interpreter interpreter interpreter interpreter interpreter interpreter .';
+=======
+    
+>>>>>>> d
 }
 
 .container {
@@ -109,15 +113,16 @@ code {
 #containerThoughtBubble {
     flex-grow: 1;
     height: 178px;
+    margin-top: 0px;
     background-repeat: no-repeat;
+    background-size: 600px 178px;
 }
 
 #containerProgressbars {
     margin-left: 20px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    padding-top: 20px;
+    height: 178px;
+    width: 600px;
 }
 
 #containerTrophy {
