@@ -55,7 +55,7 @@ code {
 }
 
 #clothing {
- grid-area: drawer;
+  grid-area: drawer;
 }
 
 #containerInterpretation {
