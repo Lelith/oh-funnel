@@ -122,9 +122,13 @@ code {
 }
 
 #containerTrophy {
-    text-align: center;
-    margin-left: 160px;
-    margin-top: 90px;
+    font-weight: bold;
+    font-size: 3em;
+    vertical-align: center;
+}
+
+#containerTrophy img {
+  height: 150px;
 }
 
 .progress-bar {

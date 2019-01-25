@@ -5,6 +5,7 @@ import ProgressBar from '../components/ProgressBar';
 
 import thoughtbubble from '../images/thought_bubble.png'
 import thoughtbubblestarts from '../images/thought_bubble_stars.gif'
+import stars from '../images/starts.gif'
 
 export default class Interpretation extends Component {
   constructor(props) {
@@ -70,12 +71,12 @@ export default class Interpretation extends Component {
         Ballermann: <ProgressBar id='ballermannProgressbar' value={ progress['ballermann'] } />
     </div>;
     let thoughBubbleStyle = {
-      backgroundImage: 'url(' + thoughtbubble + ')'
+      backgroundImage: ''
     };
 
     for (var style in progress) {
       let value = progress[style];
-      if (value >= 100) {
+      if (value >= 100 || style === 'hipster') {
         thougBubbleContent = 
             <div id='containerTrophy'>
                 <label key={style} htmlFor={style}>
@@ -89,10 +90,10 @@ export default class Interpretation extends Component {
                     data-item={style}
                   />
                   <img src={ '/images/icon/reward_' + style + '.svg' } alt={ style } />
-                </label><br />
-                <h2>No. 1 { style }!</h2>
+                  No. 1 { style }!
+                </label>
             </div>;
-        thoughBubbleStyle = { backgroundImage: 'url(' + thoughtbubblestarts + '), url(' + thoughtbubble + ')' };
+        thoughBubbleStyle = { backgroundImage: 'url(' + stars + ')' };
       }
     }
 
