@@ -50,7 +50,7 @@
   "shoes": {
     "name": "Shoes",
     "items": {
-      "jeans": {
+      "boots": {
         "category_scores": {
           "hipster":0,
           "sporty":25,
