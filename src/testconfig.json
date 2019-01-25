@@ -11,14 +11,14 @@
           "casual":25,
           "ballermann":0
         },
-        "img_name":"Shirt"
-      },
+        "img_name": "Shirt"
+      }
     }
   },
   "top_b": {
     "name": "Outerwear",
     "items": {
-      "jackett": {
+      "jacket": {
         "category_scores": {
           "hipster":0,
           "sporty":25,
@@ -28,7 +28,7 @@
           "ballermann":0
         },
         "img_name":"Shirt"
-      },
+      }
     }
   },
   "bottom": {
@@ -44,9 +44,9 @@
           "ballermann":0
         },
         "img_name":"Trousers"
-      },
+      }
     }
-  }
+  },
   "shoes": {
     "name": "Shoes",
     "items": {
@@ -60,7 +60,7 @@
           "ballermann":0
         },
         "img_name":"Boots"
-      },
+      }
     }
   }
 }
