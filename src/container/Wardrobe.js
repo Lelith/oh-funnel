@@ -3,6 +3,11 @@ import SVG from 'react-inlinesvg';
 
 import Items from '../config.json';
 
+import PaperDoll from '../images/paperdoll.svg';
+import Shirt from '../images/shirt_doll.svg';
+import Trousers from '../images/trousers_doll.svg';
+import Boots from '../images/boots_doll.svg';
+
 import Area from '../components/Area';
 import UserInfo from './UserInfo';
 import Clothing from './Clothing';
