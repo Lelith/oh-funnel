@@ -46,6 +46,14 @@ code {
     width: 90px;
 }
 
+.rewardButton {
+    background-color: Transparent;
+}
+
+.rewardButton > img {
+    height: 200px;
+}
+
 #containerInterpretation {
     clear: left;
 }
