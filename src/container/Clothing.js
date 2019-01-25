@@ -19,7 +19,7 @@ const SectionItems = (props) => {
                 data-area={areaName}
                 data-item={item}
               />
-                  <img src={ '/images/icon/' + sectionItems[item]['img_name'] } alt={ item } />
+              <img src={ '/images/icon/' + sectionItems[item]['img_name'] } alt={ item } className="iconImage" />
             </label>
           );
         })
@@ -29,14 +29,14 @@ const SectionItems = (props) => {
 };
 
 const Clothing = (props) => {
-  const { type, items, onChange } = props;
+  const { items, onChange } = props;
 
   return (
-    <div id='clothing'>
+    <div id='clothing'  className="container">
       {
         Object.keys(items).map(type => (
           <div className="itemType" key={type}>
-          <a href="#">{type}</a>
+          <h3>{ items[type].name }</h3>
             <SectionItems
             areaName={type}
             sectionItems={items[type].items} onClick={onChange}

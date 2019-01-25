@@ -3,7 +3,6 @@ import _ from 'lodash';
 
 import ProgressBar from '../components/ProgressBar';
 
-import trophy from '../images/trophy.png'
 import thoughtbubble from '../images/thought_bubble.png'
 import thoughtbubblestarts from '../images/thought_bubble_stars.gif'
 
@@ -26,7 +25,6 @@ export default class Interpretation extends Component {
     this.props2progress(this.props)
   }
 
-  /* Should take the new props, read out the items actual points for each category and then compute the sum */
   componentWillReceiveProps(nextProps) {
     this.props2progress(nextProps)
   }
@@ -43,8 +41,10 @@ export default class Interpretation extends Component {
             progress[style] += scores[style]
           }
         } else {
-          console.log('Could not locate scores for ' + garment + ' in ' + area)
+          console.log('WARNING: Could not locate scores for ' + garment + ' in ' + area)
         }
+      } else {
+        console.log('WARNING: Could not locate area ' + area + ' in config');
       }
     }
 
@@ -55,6 +55,10 @@ export default class Interpretation extends Component {
     const {
       progress
     } = this.state;
+
+    const {
+      onClick
+    } = this.props;
 
     let thougBubbleContent = 
     <div id='containerProgressbars'>
@@ -71,12 +75,21 @@ export default class Interpretation extends Component {
 
     for (var style in progress) {
       let value = progress[style];
-      if (value > 100 || style === 'hipster') {
+      if (value >= 100) {
         thougBubbleContent = 
             <div id='containerTrophy'>
-                <button key={ style } type="button" className='rewardButton'>
-                    <img src={ '/images/icon/reward_' + style + '.svg' } alt={ style } />
-                </button><br />
+                <label key={style} htmlFor={style}>
+                  <input
+                    hidden
+                    type="radio"
+                    id={style}
+                    name="ClothingItem"
+                    onClick={onClick}
+                    data-area='rewards'
+                    data-item={style}
+                  />
+                  <img src={ '/images/icon/reward_' + style + '.svg' } alt={ style } />
+                </label><br />
                 <h2>No. 1 { style }!</h2>
             </div>;
         thoughBubbleStyle = { backgroundImage: 'url(' + thoughtbubblestarts + '), url(' + thoughtbubble + ')' };
@@ -84,7 +97,7 @@ export default class Interpretation extends Component {
     }
 
     return (
-      <div id='containerInterpretation' className="container">
+      <div id='containerInterpretation'>
         <div id='containerUnicorn' />
         <div id='containerThoughtBubble' style={ thoughBubbleStyle }>
           { thougBubbleContent }

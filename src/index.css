@@ -16,23 +16,23 @@ code {
     monospace;
 }
 
+#wardrobe {
+    max-width: 1200px;
+}
+
 .container {
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(229, 233, 235);
+    border: 2px solid rgb(229, 233, 235);
     margin: 20px;
     padding: 10px;
 }
 
 #header {
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(229, 233, 235);
-    margin: 20px 20px 5px 20px;
-    padding: 0px;
-    text-align: center;
+    margin: -40px 0px -50px 20px;
 }
 
 #header h1 {
-
+    font-size: 4em;
 }
 
 
@@ -43,6 +43,11 @@ code {
 #paperdoll {
   position: relative;
   float: left;
+  max-height: 632px;
+}
+
+#paperdoll img {
+    max-height: 610px;
 }
 
 #clothing {
@@ -58,6 +63,7 @@ code {
 
 #hair {
   background-color: yellow;
+  z-index: 90;
 }
 
 #top_a {
@@ -68,16 +74,20 @@ code {
   z-index: 50;
 }
 
-.iconButton > img {
+#rewards {
+    z-index: 100;
+}
+
+#bottom {
+    z-index: 30;
+}
+
+#shoes {
+    z-index: 20;
+}
+
+.iconImage {
     width: 90px;
-}
-
-.rewardButton {
-    background-color: Transparent;
-}
-
-.rewardButton > img {
-    height: 200px;
 }
 
 #containerInterpretation {
@@ -87,7 +97,7 @@ code {
 #containerUnicorn {
     float: left;
     width: 178px;
-    height: 580px;
+    height: 178px;
     background-image: url('images/unicorn_dabbing.png');
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -95,14 +105,14 @@ code {
 
 #containerThoughtBubble {
     float: left;
-    width: 600px;
-    height: 433px;
+    height: 178px;
     background-repeat: no-repeat;
 }
 
 #containerProgressbars {
-    margin-left: 260px;
-    margin-top: 70px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
 }
 
 #containerTrophy {
@@ -125,4 +135,6 @@ code {
     border-radius: inherit;
     transition: width .2s ease-in;
     text-align: center;
+    font-size: 12px;
+    font-weight: bold;
 }

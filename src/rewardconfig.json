@@ -1,0 +1,13 @@
+{
+  "reward": {
+    "name": "reward",
+    "items": {
+      "rewardundefined":{
+        "img_name": "undefined.svg"
+      },
+      "hipster": {
+        "img_name": "reward_hipster.svg"
+      }
+    }
+  }
+}
