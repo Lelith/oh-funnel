@@ -1,0 +1,10 @@
+{
+  "hair": {
+    "name": "hair",
+    "items": {
+      "bald": {
+        "img_name": "hair_bald.svg"
+      }
+    }
+  }
+}

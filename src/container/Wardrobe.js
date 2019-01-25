@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
 import SVG from 'react-inlinesvg';
-
 import Items from '../config.json';
-
-import PaperDoll from '../images/paperdoll.svg';
-import Shirt from '../images/shirt_doll.svg';
-import Trousers from '../images/trousers_doll.svg';
-import Boots from '../images/boots_doll.svg';
-
-import Area from '../components/Area';
+import UserItems from '../userconfig.json';
 import UserInfo from './UserInfo';
 import Clothing from './Clothing';
+import PaperDoll from '../images/paperdoll.svg';
+import Area from '../components/Area';
 import Interpretation from './Interpretation';
 
 export default class Wardrobe extends Component {
@@ -61,8 +56,8 @@ export default class Wardrobe extends Component {
     const { areas, userInfo } = this.state;
     const {
       hair,
-      topA,
-      topB,
+      top_a,
+      top_b,
       bottom,
       shoes,
     } = areas;
@@ -71,14 +66,15 @@ export default class Wardrobe extends Component {
       <div>
         <UserInfo userInfo={userInfo} onChange={this.handleChangeUserInfo} />
         <div id="paperdoll" className="container">
-          <Area svg={hair} id="hair" />
-          <Area svg={topA} id="top_a" />
-          <Area svg={topB} id="top_b" />
-          <Area svg={bottom} id="bottom" />
-          <Area svg={shoes} id="shoes" />
-          <SVG src={PaperDoll} />
+          <Area areaItems={UserItems.hair} item={hair} id="hair" />
+          <Area areaItems={Items.top_a} item={top_a} id="top_a" />
+          <Area areaItems={Items.top_b} item={top_b} id="top_b" />
+          <Area areaItems={Items.bottom} item={bottom} id="bottom" />
+          <Area areaItems={Items.shoes} item={shoes} id="shoes" />
+          <img src="../images/paperdoll.svg" alt="paperdoll" />
         </div>
         <Clothing items={Items} onChange={this.handleChangeItem} />
+
         <Interpretation itemConfig={Items} currentItems={{ hair: 'bald', topA: 'plain', topB: 'knitted_top_plain', bottom: 'jeans_plain', shoes: 'sport' }} />
       </div>
     );

@@ -4,24 +4,26 @@ import PropTypes from 'prop-types';
 
 const Area = (props) => {
   const {
-    svg,
+    item,
+    areaItems,
     id,
   } = props;
-
   return (
     <div id={id} className="area">
-      <SVG src={svg} />
+      <img src={`/images/doll/${areaItems.items[item].img_name}`} alt="{item}" />
     </div>
   );
 };
 
 Area.propTypes = {
-  svg: PropTypes.any,
+  item: PropTypes.string,
+  areaItems: PropTypes.object,
   id: PropTypes.string.isRequired,
 };
 
 Area.defaultProps = {
-  svg: '',
+  item: 'undefined',
+  areaItems: {}
 };
 
 export default Area;

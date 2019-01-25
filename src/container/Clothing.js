@@ -1,4 +1,3 @@
-
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -9,7 +8,6 @@ const SectionItems = (props) => {
     <ul>
       {
         Object.keys(sectionItems).map((item) => {
-          console.log();
           return (
             <label key={item} htmlFor={item}>
               <input
@@ -31,21 +29,20 @@ const SectionItems = (props) => {
 };
 
 const Clothing = (props) => {
-  const { items, onChange } = props;
+  const { type, items, onChange } = props;
 
   return (
-    <div id='clothing'>
-      {Sections}
     <div id='clothing'>
       {
         Object.keys(items).map(type => (
           <div className="itemType" key={type}>
           <a href="#">{type}</a>
-            <SectionItems areaName={type} sectionItems={items[type].items} onClick={onChange} />
+            <SectionItems
+            areaName={type}
+            sectionItems={items[type].items} onClick={onChange}
+            />
           </div>
-        ))
-        })
-      }
+        ))}
     </div>
   );
 };

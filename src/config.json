@@ -2,6 +2,17 @@
   "top_a": {
     "name": "Shirt",
     "items": {
+      "undefined":{
+        "category_scores": {
+          "hipster":0,
+          "sporty":0,
+          "business":0,
+          "hippie":0,
+          "casual":0,
+          "ballermann":0
+        },
+        "img_name": "undefined.svg"
+      },
       "plain": {
         "category_scores": {
           "hipster": 0,
@@ -44,7 +55,7 @@
           "casual": 25,
           "ballermann": 0
         },
-        "img_name": "top_a_stripes.svg"
+        "img_name": "top_a_striped.svg"
       },
       "polo": {
         "category_scores": {
@@ -117,6 +128,17 @@
   "top_b": {
     "name": "Sweater",
     "items": {
+      "undefined":{
+        "category_scores": {
+          "hipster":0,
+          "sporty":0,
+          "business":0,
+          "hippie":0,
+          "casual":0,
+          "ballermann":0
+        },
+        "img_name": "undefined.svg"
+      },
       "knitted_top_plain": {
         "category_scores": {
           "hipster": 0,
@@ -221,6 +243,17 @@
   "bottom": {
     "name": "Trousers",
     "items": {
+      "undefined":{
+        "category_scores": {
+          "hipster":0,
+          "sporty":0,
+          "business":0,
+          "hippie":0,
+          "casual":0,
+          "ballermann":0
+        },
+        "img_name": "undefined.svg"
+      },
       "jeans_plain": {
         "category_scores": {
           "hipster": 10,
@@ -303,6 +336,17 @@
   "shoes": {
     "name": "Shoes",
     "items": {
+      "undefined":{
+        "category_scores": {
+          "hipster":0,
+          "sporty":0,
+          "business":0,
+          "hippie":0,
+          "casual":0,
+          "ballermann":0
+        },
+        "img_name": "undefined.svg"
+      },
       "sport": {
         "category_scores": {
           "hipster": 0,
