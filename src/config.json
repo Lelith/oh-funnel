@@ -150,7 +150,7 @@
         },
         "img_name": "top_b_sweatshirt_plain.svg"
       },
-      "sweashirt_print": {
+      "sweatshirt_print": {
         "category_scores": {
           "hipster": 10,
           "sporty": 25,
@@ -159,9 +159,9 @@
           "casual": 10,
           "ballermann": 0
         },
-        "img_name": "top_b_sweashirt_print.svg"
+        "img_name": "top_b_sweatshirt_print.svg"
       },
-      "sweashirt_text": {
+      "sweatshirt_text": {
         "category_scores": {
           "hipster": 25,
           "sporty": 10,
@@ -170,7 +170,7 @@
           "casual": 10,
           "ballermann": 10
         },
-        "img_name": "top_b_sweashirt_text.svg"
+        "img_name": "top_b_sweatshirt_text.svg"
       },
       "hoodie_plain": {
         "category_scores": {

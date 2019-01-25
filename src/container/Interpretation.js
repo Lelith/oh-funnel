@@ -84,7 +84,7 @@ export default class Interpretation extends Component {
     }
 
     return (
-      <div id='containerInterpretation'>
+      <div id='containerInterpretation' className="container">
         <div id='containerUnicorn' />
         <div id='containerThoughtBubble' style={ thoughBubbleStyle }>
           { thougBubbleContent }

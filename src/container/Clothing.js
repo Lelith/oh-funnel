@@ -34,7 +34,7 @@ const Clothing = (props) => {
 
 
   return (
-    <div id='clothing'>
+    <div id='clothing' className="container">
       {Sections}
     </div>
   );

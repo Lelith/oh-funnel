@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { Form, Checkbox } from 'semantic-ui-react'
+
 const UserInfo = (props) => {
   const { userInfo, onChange } = props;
   const {
@@ -11,11 +13,11 @@ const UserInfo = (props) => {
   } = userInfo;
 
   return (
-    <div id='userInfo'>
+    <div id='userInfo' className="container">
       <h2>Tell us About You</h2>
       <h3>What hair color do you have?</h3>
       <label htmlFor="hair_blonde">
-      Blonde
+        Blonde
         <input
           id="hair_blonde"
           type="radio"
@@ -24,7 +26,7 @@ const UserInfo = (props) => {
           checked={haircolor === 'blonde'}
           onChange={onChange}
         />
-      </label>
+      </label><br />
       <label htmlFor="hair_brown">
         Brown
         <input

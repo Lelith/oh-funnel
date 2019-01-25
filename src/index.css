@@ -6,12 +6,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgb(239, 242, 243);
+  color: rgb(52, 69, 78);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.container {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(229, 233, 235);
+    margin: 20px;
+    padding: 10px;
+}
+
+#header {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(229, 233, 235);
+    margin: 20px 20px 5px 20px;
+    padding: 0px;
+    text-align: center;
+}
+
+#header h1 {
+
+}
+
 
 #userInfo {
     float: left;
@@ -24,6 +47,9 @@ code {
 
 #clothing {
     float: left;
+}
+
+#containerInterpretation {
 }
 
 .area {
