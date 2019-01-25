@@ -1,17 +1,15 @@
 /* eslint-disable no-unused-expressions */
 import React from 'react';
 import PropTypes from 'prop-types';
-import SVG from 'react-inlinesvg';
-import ItemImages from './TestItems';
+
 
 const SectionItems = (props) => {
   const { sectionItems, onClick } = props;
+
   const Items = Object.keys(sectionItems).map((item) => {
-    const svgsrc = sectionItems[item].img_name;
-    console.log();
     return (
-      <button key={item} type="button" onClick={onClick}>
-        <SVG src={ItemImages[svgsrc]} />
+      <button key={item} type="button" onClick={onClick} className='iconButton'>
+        <img src={ '/images/icon/' + sectionItems[item]['img_name'] } alt={ item } />
       </button>
     );
   });

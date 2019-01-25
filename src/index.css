@@ -42,6 +42,10 @@ code {
   z-index: 50;
 }
 
+.iconButton > img {
+    width: 90px;
+}
+
 #containerInterpretation {
     clear: left;
 }
