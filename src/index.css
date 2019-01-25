@@ -110,7 +110,7 @@ code {
     flex-grow: 1;
     height: 178px;
     margin-top: 0px;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 600px 178px;
 }
 

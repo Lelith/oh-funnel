@@ -9,8 +9,8 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="800mm"
-   height="600mm"
-   viewBox="-400 -300 800 600"
+   height="800mm"
+   viewBox="-400 -300 800 800"
    id="svg869"
    sodipodi:docname="undefined.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
@@ -22,6 +22,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Titel der Datei</dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -40,9 +41,9 @@
      inkscape:window-height="1025"
      id="namedview871"
      showgrid="false"
-     inkscape:zoom="0.26940768"
-     inkscape:cx="1133.4742"
-     inkscape:cy="1075.1508"
+     inkscape:zoom="0.1905"
+     inkscape:cx="182.31616"
+     inkscape:cy="1096.1436"
      inkscape:window-x="67"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -53,21 +54,21 @@
      id="desc867">Beschreibung/Textalternative zum Inhalt.</desc>
   <!--Inhalt der Datei -->
   <rect
-     style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
      id="rect877"
      width="698.26788"
      height="49.104633"
-     x="-366.71964"
-     y="-17.424786"
+     x="-310.74036"
+     y="50.339611"
      ry="2.6977975e-07"
      transform="rotate(45)" />
   <rect
-     style="fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+     style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
      id="rect877-6"
      width="698.26788"
      height="49.104633"
-     x="-370.13141"
-     y="-4.2907782"
+     x="-302.367"
+     y="51.688499"
      ry="2.6977975e-07"
      transform="matrix(-0.70710678,0.70710678,0.70710678,0.70710678,0,0)" />
 </svg>
