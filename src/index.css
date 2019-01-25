@@ -119,6 +119,7 @@ code {
     background-position: center;
     align-items: center;
     display: flex;
+    justify-content: center;
 }
 
 .trophyContent {
