@@ -61,7 +61,7 @@ export default class Interpretation extends Component {
       onClick
     } = this.props;
 
-    let thougBubbleContent = 
+    let thougBubbleContent =
     <div id='containerProgressbars'>
         Casual: <ProgressBar id='causalProgressbar' value={ progress['casual'] } />
         Sporty: <ProgressBar id='sportyProgressbar' value={ progress['sporty'] } />
@@ -77,9 +77,9 @@ export default class Interpretation extends Component {
     for (var style in progress) {
       let value = progress[style];
       if (value >= 100 || style === 'hipster') {
-        thougBubbleContent = 
+        thougBubbleContent =
             <div id='containerTrophy'>
-                <label key={style} htmlFor={style}>
+                <label className="trophyContent" key={style} htmlFor={style}>
                   <input
                     hidden
                     type="radio"
@@ -90,7 +90,7 @@ export default class Interpretation extends Component {
                     data-item={style}
                   />
                   <img src={ '/images/icon/reward_' + style + '.svg' } alt={ style } />
-                  No. 1 { style }!
+                  <span className="trophyText">No. 1 { style }!</span>
                 </label>
             </div>;
         thoughBubbleStyle = { backgroundImage: 'url(' + stars + ')' };

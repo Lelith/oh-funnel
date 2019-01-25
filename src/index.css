@@ -101,7 +101,6 @@ code {
     width: 178px;
     height: 178px;
     background-image: url('images/unicorn_dabbing.png');
-    background-repeat: no-repeat;
     background-position: left bottom;
     flex-shrink: 0;
 }
@@ -110,10 +109,13 @@ code {
     flex-grow: 1;
     height: 178px;
     margin-top: 0px;
-    background-repeat: repeat;
-    background-size: 600px 178px;
+    background-position: center;
 }
 
+.trophyContent {
+  display: flex;
+  align-items: center;
+}
 #containerProgressbars {
     margin-left: 20px;
     display: flex;
@@ -123,8 +125,10 @@ code {
 
 #containerTrophy {
     font-weight: bold;
-    font-size: 3em;
-    vertical-align: center;
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #containerTrophy img {
