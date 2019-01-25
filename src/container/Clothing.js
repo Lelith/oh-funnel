@@ -5,20 +5,29 @@ import SVG from 'react-inlinesvg';
 import ItemImages from './TestItems';
 
 const SectionItems = (props) => {
-  const { sectionItems, onClick } = props;
-  const Items = Object.keys(sectionItems).map((item) => {
-    const svgsrc = sectionItems[item].img_name;
-    console.log();
-    return (
-      <button key={item} type="button" onClick={onClick}>
-        <SVG src={ItemImages[svgsrc]} />
-      </button>
-    );
-  });
-
+  const { areaName, sectionItems, onClick } = props;
   return (
     <ul>
-      {Items}
+      {
+        Object.keys(sectionItems).map((item) => {
+          const svgsrc = sectionItems[item].img_name;
+          console.log();
+          return (
+            <label key={item} htmlFor={item}>
+              <input
+                hidden
+                type="radio"
+                id={item}
+                name="ClothingItem"
+                onClick={onClick}
+                data-area={areaName}
+                data-item={item}
+              />
+              <SVG src={ItemImages[svgsrc]} />
+            </label>
+          );
+        })
+    }
     </ul>
   );
 };
@@ -26,18 +35,17 @@ const SectionItems = (props) => {
 const Clothing = (props) => {
   const { items, onChange } = props;
 
-  const Sections = Object.keys(items).map((type) => {
-    return(
-    <div className="itemType" key={type}>
-      <a href="#">{type}</a>
-      <SectionItems sectionItems={items[type].items} onClick={onChange} />
-    </div>);
-  });
-
-
   return (
     <div id='clothing'>
-      {Sections}
+      {
+        Object.keys(items).map(type => (
+          <div className="itemType" key={type}>
+          <a href="#">{type}</a>
+            <SectionItems areaName={type} sectionItems={items[type].items} onClick={onChange} />
+          </div>
+        ))
+        })
+      }
     </div>
   );
 };
